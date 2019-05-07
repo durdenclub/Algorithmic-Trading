@@ -1,1 +1,13 @@
+After we have a forecast and the current price of the underlying asset we need to compare them. Moreover, the confidence interval
+has to be high enouth to proceed further. 
 
+So fisrtly, we take the forecasting and see if the difference (spead) between current price and future price is high enough to cover our 
+costs for the deal both for open and close the position. 
+
+If it is high we check to see the confidence interval
+
+After that we proceed further with making a deal. 
+
+
+If forecast_out > 80%: 
+   
